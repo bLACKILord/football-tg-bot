@@ -21,7 +21,7 @@ DATA_FILE = 'football_data.json'
 TIMEZONE = pytz.timezone('Asia/Tashkent')
 ADMIN_USERNAME = "admin"
 ADMIN_PASSWORD = "admin"
-TOKEN = "8373138925:AAG3kjpfdSjlXrULKCLT7W-n9taXSyeoxqM"
+TOKEN = "8373138925:AAHjiD6GBk5PwP7M9QO2kD96x1ERO6HrEto"
 
 # --- КЛАСС ДЛЯ УПРАВЛЕНИЯ ДАННЫМИ ---
 
@@ -789,4 +789,5 @@ def main():
     application.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == '__main__':
+
     main()
